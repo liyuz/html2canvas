@@ -47,7 +47,8 @@ export class FontMetrics {
         span.appendChild(this._document.createTextNode(SAMPLE_TEXT));
         container.appendChild(span);
         container.appendChild(img);
-        const baseline = img.offsetTop - span.offsetTop + 2;
+        // const baseline = img.offsetTop - span.offsetTop + 2;
+        const baseline = parseInt(getComputedStyle(span, null).lineHeight, 10) - 5;
 
         container.removeChild(span);
         container.appendChild(this._document.createTextNode(SAMPLE_TEXT));
