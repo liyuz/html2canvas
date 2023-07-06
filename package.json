@@ -7,17 +7,13 @@
   "typings": "dist/types/index.d.ts",
   "browser": "dist/html2canvas.js",
   "version": "1.0.0",
-  "author": {
-    "name": "Niklas von Hertzen",
-    "email": "niklasvh@gmail.com",
-    "url": "https://hertzen.com"
-  },
+  "author": "Niklas von Hertzen <niklasvh@gmail.com> (https://hertzen.com)",
   "engines": {
     "node": ">=8.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:niklasvh/html2canvas.git"
+    "url": "git+ssh://git@github.com/niklasvh/html2canvas.git"
   },
   "bugs": {
     "url": "https://github.com/niklasvh/html2canvas/issues"
